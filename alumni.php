@@ -12,11 +12,11 @@
       <!-- Navigation bar -->
       <nav>
         <div class="nav-container">
-          <h1 class="logo">UniCare</h1>
+          <h1 class="logo"><a href="homepage.html">UniCare</a></h1>
           <ul class="nav-links">
             <li><a href="dashboard.html">Dashboard</a></li>
             <li><a href="contacts.html">Contacts</a></li>
-            <li><a href="courses.html">Courses</a></li>
+            <li><a href="http://localhost/virginia%20namukuru%20school%20project,css,html/courses.php">Courses</a></li>
             <!-- <li><a href="#communication">Jobs opportunities</a></li>
             <li><a href="#reporting">News</a></li>
             <li><a href="#integration">Meetings</a></li> -->
@@ -24,11 +24,11 @@
         </div>
       </nav>
       <section class="alumni">
-
+<!-- 
         <div class="toggle-button">
           <button class="pl-3">Events</button>
           <button>Alumni</button>
-        </div>
+        </div> -->
 
             <?php
               // Connect to the database
@@ -83,7 +83,7 @@
             ?>
               
               
-            <div class="alumni-list" id="alumni-list">
+            <div class="mt-3">
               <h2>Alumni Registry</h2>
               
               <div style="">
@@ -150,7 +150,7 @@
               </div>
             </div>
 
-        <div>
+        <div class="mt-5">
           <h2>University Courses Alumni Events</h2>
           <table>
             <thead>
