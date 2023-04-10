@@ -1,0 +1,97 @@
+ <!-- Dashboard section -->
+    <section id="dashboard" class="dashboard-section">
+      <div class="dashboard-container">
+        <h2 class="dashboard-heading">Dashboard</h2>
+        <div class="card">
+          <h3 class="card-heading">Student Information</h3>
+          <ul class="card-list">
+            <li>Courses:</li>
+            <li>Grades:</li>
+            <li>Upcoming Assignments:</li>
+          </ul>
+        </div>
+        <div class="card">
+          <h3 class="card-heading">Alumni Information</h3>
+          <ul class="card-list">
+            <li>Upcoming Alumni Events:</li>
+            <li>Job Opportunities:</li>
+            <li>Other Relevant News:</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+
+    .signup-container {
+  max-width: 400px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.signup-container h1 {
+  font-size: 2rem;
+  margin-bottom: 1.5rem;
+}
+
+.form-group {
+  margin-bottom: 1.5rem;
+  text-align: left;
+}
+
+.form-group label {
+  display: block;
+  font-size: 1.1rem;
+  margin-bottom: 0.5rem;
+}
+
+.form-group input[type="email"],
+.form-group input[type="password"] {
+  width: 100%;
+  padding: 0.5rem;
+  border-radius: 4px;
+  border: 1px solid #ccc;
+  font-size: 1rem;
+}
+
+.signup-button {
+  background-color: #ffc0cb;
+  color: white;
+  padding: 0.5rem 1.5rem;
+  border-radius: 4px;
+  border: none;
+  font-size: 1.2rem;
+  cursor: pointer;
+}
+
+.signup-button:hover {
+  background-color: #ffa3b3;
+}
+
+.signup-options {
+  margin-top: 1.5rem;
+}
+
+.signup-options p {
+  margin-bottom: 0.5rem;
+}
+
+.signup-social a {
+  display: inline-block;
+  background-color: white;
+  color: #333;
+  padding: 0.5rem 1rem;
+  border-radius: 4px;
+  border: 1px solid #ccc;
+  margin-right: 0.5rem;
+  font-size: 1.1rem;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.signup-social a:hover {
+  background-color: #eee;
+}
+
+.signup-google {
+  color: #dd4b39;
+}
